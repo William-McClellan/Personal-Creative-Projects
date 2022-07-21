@@ -1,0 +1,60 @@
+.earth-img{
+    object-fit: contain;
+    margin: auto;
+     width: 100%;
+      height: 100%;
+     }
+
+
+.verticle-flex-layout{
+   display: flex;
+   flex-direction: column;
+}
+
+h1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+a{
+    color: lightgray;
+    font-size: 10px;
+}
+
+.absolute-horizontal-flexbox{
+    position: absolute;
+    top: 35%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.the-bar{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 18px;
+    width: 90%;
+    border-radius: 5px;
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 233, 208, 1) 100%);
+    margin-top: 15px;
+    
+}
+
+.bar-text{
+    position: absolute;
+    top: -3px;
+
+}
+
+p{
+    margin: 10px;
+    white-space: nowrap;
+}
+
+body{
+    font-family: Anton;
+    
+}
